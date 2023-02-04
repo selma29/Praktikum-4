@@ -17,7 +17,7 @@ Dengan hasil outpunya sbb:
 
 ![Gambar](gambar/2.png)
 
-Disini diminta untuk memasukan data sebanyak-banyaknya. Jadi saya akan mencoba memasukan beberapa data diantaranya seperti NAMA, NIM, NILAI TUGAS, NILAI UTS dan yang terakhir NILAI UAS
+Disini diminta untuk memasukan data sebanyak-banyaknya. Jadi saya akan mencoba memasukan beberapa data diantaranya seperti NAMA, NIM, NILAI TUGAS, NILAI UTS dan NILAI UAS
 
 Untuk dapat menambahkan data-data tersebut, masukan code seperti ini:
 
