@@ -71,6 +71,8 @@ Selanjutnya masukan code berikut:
 
 # HASIL OUTPUT
 
+![Gambar](gambar/5.png)
+
 # FLOWCHART PROGRAM
 
 ![Gambar](gambar/6.png)
