@@ -6,6 +6,8 @@ NIM : 312210727
 
 KELAS : TI.22.C9
 
+Mata Kuliah : Bahasa Pemograman
+
 # TUGAS PRAKTIKUM 4
 Soal
 
