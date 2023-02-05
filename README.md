@@ -1,4 +1,4 @@
-# PERTEMUAN 9
+# TUGAS PERTEMUAN KE 9
 
 NAMA : Selma Ohoira
 
@@ -8,7 +8,7 @@ KELAS : TI.22.C9
 
 Mata Kuliah : Bahasa Pemograman
 
-# TUGAS PRAKTIKUM 4
+# PRAKTIKUM 4
 Soal
 
 ![Gambar](gambar/1.png)
