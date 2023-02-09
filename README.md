@@ -1,10 +1,10 @@
 # PRAKTIKUM 4
 
-NAMA : Selma Ohoira
+NAMA        : Selma Ohoira
 
-NIM : 312210727
+NIM         : 312210727
 
-KELAS : TI.22.C9
+KELAS       : TI.22.C9
 
 Mata Kuliah : Bahasa Pemograman
 
@@ -30,6 +30,7 @@ Masukan syntax berikut:
         print("Bilangan ke-1 dan ke-2 sama besarnya")
 
 Hasil output Latihan 1
+
 ![Gambar](gambar/10.png)
 
 ## Latihan 2
@@ -61,6 +62,7 @@ Masukan syntax berikut:
                 print("Urutan bilangan:", c, b, a)
 
 Hasil output latihan 2
+
 ![Gambar](gambar/11.png)
 
 ## Latihan 3
@@ -76,7 +78,8 @@ Masukan syntax berikut:
     # menampilkan garis ganti/membuat garis baru
         print()
 
-Hasil output latihan3
+Hasil output latihan 3
+
 ![Gambar](gambar/12.png)
 
 ## Latihan 4
@@ -102,7 +105,7 @@ Print hasil random.
 
     print(random2);
 
-## Hasil output latihan1.py
+## Hasil output latihan 4
 
 ![Gambar](gambar/13.png)
 
