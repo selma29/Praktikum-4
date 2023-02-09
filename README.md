@@ -1,4 +1,4 @@
-# TUGAS PERTEMUAN KE 9
+# PRAKTIKUM 4
 
 NAMA : Selma Ohoira
 
@@ -8,73 +8,102 @@ KELAS : TI.22.C9
 
 Mata Kuliah : Bahasa Pemograman
 
-# PRAKTIKUM 4
-Soal
+## Latihan 1
+Membuat program sederhana dengan input 2 buah bilangan, kemudian tentukan bilangan terbesar
+dari kedua bilangan tersebut menggunakan statement if.
+Masukan syntax berikut:
 
-![Gambar](gambar/1.png)
+    # input nilai variable
+    a = input("Bilangan ke-1 :")
+    b = input("Bilangan ke-2 :")
 
-Dengan hasil outpunya sbb:
+    # jika bilangan ke 1 lebih besar 
+    if a > b :
+        print("Bilangan ke-1 yang terbesar")
 
-![Gambar](gambar/2.png)
+    # jika bilangan ke 2 lebih besar
+    elif b > a :
+        print("Bilangan ke-2 yang terbesar")
 
-Disini diminta untuk memasukan data sebanyak-banyaknya. Jadi saya akan mencoba memasukan beberapa data diantaranya seperti NAMA, NIM, NILAI TUGAS, NILAI UTS dan NILAI UAS
+    # jika bilangan ke 1 ke 2 sama besar
+    else:
+        print("Bilangan ke-1 dan ke-2 sama besarnya")
 
-Untuk dapat menambahkan data-data tersebut, masukan code seperti ini:
+Hasil output Latihan 1
+![Gambar](gambar/10.png)
 
-    nama = input("NAMA: ")
-    nim = input("NIM: ")
-    tugas = int(input("NILAI TUGAS: "))
-    uts = int(input("NILAI UTS: "))
-    uas = int(input("NILAI UAS: "))
+## Latihan 2
+Membuat program untuk mengurutkan data berdasarkan input sejumlah data dengan
+tampilkan hasilnya secara berurutan mulai dari data terkecil.
+Masukan syntax berikut:
 
-Setelah itu run, hasil outputnya seperti ini:
+    # menampilkan karakter
+    print("Perogram mengurutkan data")
+    # input nilai variable
+    a = input("Bilangan ke-1 : ")
+    b = input("Bilangan ke-2 : ")
+    c = input("Bilangan ke-3 : ")
 
-![Gambar](gambar/3.png)
+    if a<b and a<c:
+        if b<c:
+                print("Urutan bilangan:", a, b, c)
+        else:
+                print("Urutan bilangan:", a, c, b)
+    elif b<a and b<c:
+        if a<c:
+                print("Urutan bilangan:", b, a, c)
+        else:
+                print("Urutan bilangan:", b, c, a)
+    else:
+        if a<b:
+                print("Urutan bilangan:", c, a, b)
+        else:
+                print("Urutan bilangan:", c, b, a)
 
-Selanjutnya diminta untuk membuat sebuah pernyataan YA/TIDAK pada pertanyaan 'apakah ingin menambahkan sebuah data?'.
-Masukkan code berikut:
+Hasil output latihan 2
+![Gambar](gambar/11.png)
 
-    if (input("TAMBAHKAN DATA (Y/T)?") == ''):
-    ulang = False
+## Latihan 3
+Membuat program dengan perulangan bertingkat (nested) for.
+Masukan syntax berikut:
 
-Setelah itu run, hasil outputnya seperti ini:
+    # melakukan pengulangan 0-9
+    for i in range(0,10):
+    # melakukan pengulangan 0-9
+        for j in range(0,10):
+    # menampilkan hasil dari i+j dengan rata kiri di posisi 3
+            print('{0:<3}'.format(i+j), end=' ')
+    # menampilkan garis ganti/membuat garis baru
+        print()
 
-![Gambar](gambar/4.png)
+Hasil output latihan3
+![Gambar](gambar/12.png)
 
-Selanjutnya masukan code berikut:
+## Latihan 4
+Program untuk menampilkan N bilangan acak kurang dari 0,5.
 
-    nilai = []
-    ulang = True
+Import Random.
 
-    while ulang:
-        nama = input("Masukkan Nama: ")
-        nim = input("Masukkan NIM: ")
-        tugas = int(input("Masukkan Nilai Tugas: "))
-        uts = int(input("Masukkan Nilai UTS: "))
-        uas = int(input("Masukkan Nilai UAS: "))
-        akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
+    import random;
 
-        nilai.append([nama, nim, tugas, uts, uas, int(akhir)])
-        if (input("Tambah data (y/t)?") == 't'):
-            ulang = False
+Masukan nilai N.
 
-    print("\n                      Daftar Nilai Mahasiswa")
-    print("==================================================================")
-    print("|No. |     Nama     |    NIM    | Tugas |  UTS  |  UAS  |  Akhir |")
-    print("==================================================================")
-    i = 0
-    for item in nilai:
-        i += 1
-        print("| {no:2d} | {nama:12s} | {nim:9s} | {tugas:5d} | {uts:5d} | {uas:5d} | {akhir:6.2f} |"
-            .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
-    print("==================================================================")
+    N = int(input('Masukkan nilai N: '));
 
-# HASIL OUTPUT
+Looping nilai N menggunakan For.
 
-![Gambar](gambar/5.png)
+    for i in range(N)
 
-# FLOWCHART PROGRAM
+Random dengan random.uniform dengan range 0.0 - 0.5.
 
-![Gambar](gambar/6.png)
+    random2 = random.uniform(0.0, 0.5);
 
-SELESAI!!
+Print hasil random.
+
+    print(random2);
+
+## Hasil output latihan1.py
+
+![Gambar](gambar/13.png)
+
+SELESAI !!
