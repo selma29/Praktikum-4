@@ -105,7 +105,7 @@ Print hasil random.
 
     print(random2);
 
-## Hasil output latihan 4
+Hasil output latihan 4
 
 ![Gambar](gambar/13.png)
 
